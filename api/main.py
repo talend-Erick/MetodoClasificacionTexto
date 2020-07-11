@@ -11,12 +11,12 @@ class PredictionSchema(BaseModel):
     prediction: str
 
 app = FastAPI()
-
-@app.post('/train')
-async def train_model():
-    train()
-
-    return {'Result': 'model.pkl produced'}
+#
+# @app.post('/train')
+# async def train_model():
+#     train()
+#
+#     return {'Result': 'model.pkl produced'}
 
 @app.get('/predict',response_model=List[PredictionSchema])
 async def predict_review(sentences: List[str] = Query(..., description='Sentences to process')):
