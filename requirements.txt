@@ -77,7 +77,7 @@ prompt-toolkit==3.0.5
 ptyprocess==0.6.0
 py==1.9.0
 pydantic==1.6
-Pygments==2.6.1
+Pygments==2.7.4
 pyLDAvis==2.1.2
 pyOpenSSL==19.1.0
 pyparsing==2.4.7
