@@ -75,7 +75,7 @@ prometheus-client==0.8.0
 promise==2.2.1
 prompt-toolkit==3.0.5
 ptyprocess==0.6.0
-py==1.9.0
+py==1.10.0
 pydantic==1.6
 Pygments==2.6.1
 pyLDAvis==2.1.2
